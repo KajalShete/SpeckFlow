@@ -13,7 +13,7 @@ public class BaseStepDefinitions
         driver = new ChromeDriver(@"C:\Automation\Compleo Suite\CompleoIRP\Input\ChromeDriver");
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
     }
-
+    //AfterScenario
     [AfterScenario]
     public void Cleanup()
     {
