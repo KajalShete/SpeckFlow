@@ -6,7 +6,7 @@ using TechTalk.SpecFlow;
 public class BaseStepDefinitions
 {
     protected IWebDriver driver;
-    //BeforeScenario
+  
     [BeforeScenario]
     public void Initialize()
     {
